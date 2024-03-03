@@ -1,16 +1,18 @@
 # bank.py
-# Program reads two money amounts an print the answer with a Euro sign
+# Program reads two money amounts and print the answer with a Euro sign
 # Author: Noemi Diaz
 
-r = float (0.65)
-z = float (1.80) 
-print (r + z)
+#Promt the user money amount
+
+amount1 = int (input ('Please enter the first number:'))
+
+amount2 = int (input ('Please enter the second number:'))
+
+newNumber= ((amount1 + amount2)/ 100)
+
 
 # Print out the answer in a human readable with a euro sign
-price = 2.45
-txt = "The price is {} Euros"
+
+price = newNumber
+txt = "The price is {}€ Euros"
 print (txt.format (price))
-
-
-
-
