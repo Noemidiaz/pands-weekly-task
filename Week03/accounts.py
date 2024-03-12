@@ -9,10 +9,11 @@ account_number = input ("1020304050")
 # Step 2: Checking the account number lenght
 
 if len(account_number) !=10:
-    print("1020304050")
+    print("10")
 
 
 # Step 3: Masking account number replacing first characters with 'X'
-    
-    masked_number = "X" * 6 + account_number[-4:]
-    print("Masked Account Number:", masked_number)
+
+account_number = "1020304050"
+masked_account = "X" * 6 + account_number[-4:]
+print("Masked Account Number:", masked_account)
