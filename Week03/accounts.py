@@ -5,9 +5,3 @@
 # Step 1: Input account number
 
 account_number= input ("1020304050")
-
-# Step 2: Check aacount number length
-
-if len(account_number) !=10: 
-
-# Step 3: Masking account number
