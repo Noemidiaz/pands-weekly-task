@@ -12,7 +12,7 @@ if len(account_number) !=10:
     print("10")
 
 
-# Step 3: Masking account number replacing first characters with 'X'
+# Step 3: Masking account number replacing first characters with 'X' and visualizing last 4 digits
 
 account_number = "1020304050"
 masked_account = "X" * 6 + account_number[-4:]
