@@ -2,6 +2,7 @@
 # Program that takes a 10-character account number and displays it with only the last 4 digits visible, while first 6 digits are replaced with Xs
 # Author: Noemi Diaz
 
+
 # Step 1: Input account number
 
 account_number = input ("1020304050")
@@ -17,3 +18,17 @@ if len(account_number) !=10:
 account_number = "1020304050"
 masked_account = "X" * 6 + account_number[-4:]
 print("Masked Account Number:", masked_account)
+
+
+
+
+# EXTRA
+# Program to deal with accounts numbers with any type of length
+
+# Assumption 1: account number less than 4 digit It will turn to an error
+# Assumption 2: account with any length and mask last 4 digit
+
+creditcard_number = input ("1020304050607080")
+if len(creditcard_number) > 4:
+masked_number = "X" * (len(creditcard_number) - 4) + creditcard_number[-4:]
+print("Masked Account Number:", masked_number)
