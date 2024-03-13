@@ -3,23 +3,20 @@
 # Author: Noemi Diaz
 
 
-# Step 1: Input account number
+# Step 1: account number
 
 account_number = input ("1020304050")
 
-# Step 2: Checking the account number lenght
+# Step 2: Checking the default account lenght
 
 if len(account_number) !=10:
     print("10")
-
 
 # Step 3: Masking account number replacing first characters with 'X' and visualizing last 4 digits
 
 account_number = "1020304050"
 masked_account = "X" * 6 + account_number[-4:]
 print("Masked Account Number:", masked_account)
-
-
 
 
 # EXTRA
@@ -29,6 +26,10 @@ print("Masked Account Number:", masked_account)
 # Assumption 2: account with any length and mask last 4 digit
 
 creditcard_number = input ("1020304050607080")
-if len(creditcard_number) > 4:
+
+if len(creditcard_number) < 4: 
 masked_number = "X" * (len(creditcard_number) - 4) + creditcard_number[-4:]
-print("Masked Account Number:", masked_number)
+
+masked_account_number = mask_account_number(creditcard_number)
+
+print("Masked Account Number:", masked_account_number)
