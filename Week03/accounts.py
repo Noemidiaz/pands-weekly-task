@@ -5,7 +5,7 @@
 
 # Step 1: Prompt the user account number
 
-account_number = int (input ("Please enter an 10 digit account number:"))
+account_number = (input ("Please enter an 10 digit account number:"))
 
 # Step 2: Checking the default account lenght
 
@@ -14,31 +14,43 @@ if len(account_number) !=10:
 
 # Step 3: Masking account number replacing first characters with 'X' and visualizing last 4 digits
 
-account_number = "1020304050"
 masked_account = "X" * 6 + account_number[-4:]
 print("Masked Account Number:", masked_account)
 
 
 
+# EXTRA TASK
+# Program to deal with accounts numbers with any type of length and mask last 4 digit
 
-# EXTRA
-# Program to deal with accounts numbers with any type of length
 
 # Assumption 1: account number less than 4 digit It will turn to an error
-# Assumption 2: account with any length and mask last 4 digit
 
-"""
-creditcard_number = input ("1020304050607080")
-
-if len(creditcard_number) < 4: 
-masked_number = "X" * (len(creditcard_number) - 4) + creditcard_number[-4:]
-
-masked_account_number = mask_account_number(creditcard_number)
-
-print("Masked Account Number:", masked_account_number)
-"""
+# Assumption 2: account number with 4 or more digits (any length) It will mask last 4 numbers with 'X's
 
 
+    # Step 1: Define the function
+
+def hide_last_4_digits(creditcard_number):
+
+    # Step 2: Check if the length of credit card is not shorter than 4 digits
+
+    if len(creditcard_number) < 4: 
+     return "Account number is too short to hide last 4 digits."
+
+    #Step 3: Mask last 4 digit of credit card
+
+    masked_number = "X" * (len(creditcard_number) - 4) + creditcard_number[-4:]
+    return masked_number
+
+    # Step 4: User insert credit card number
+
+creditcard_number = (input ("Please enter any length account number:"))
+
+    # Step 5: Finally returns the masked credit card number
+
+masked_creditcard_number = hide_last_4_digits(creditcard_number)
+
+print("Masked credit Card Number:", masked_creditcard_number)
 
 
 
