@@ -3,9 +3,9 @@
 # Author: Noemi Diaz
 
 
-# Step 1: account number
+# Step 1: Prompt the user account number
 
-account_number = input ("1020304050")
+account_number = int (input ("Please enter an 10 digit account number:"))
 
 # Step 2: Checking the default account lenght
 
@@ -19,12 +19,15 @@ masked_account = "X" * 6 + account_number[-4:]
 print("Masked Account Number:", masked_account)
 
 
+
+
 # EXTRA
 # Program to deal with accounts numbers with any type of length
 
 # Assumption 1: account number less than 4 digit It will turn to an error
 # Assumption 2: account with any length and mask last 4 digit
 
+"""
 creditcard_number = input ("1020304050607080")
 
 if len(creditcard_number) < 4: 
@@ -33,3 +36,12 @@ masked_number = "X" * (len(creditcard_number) - 4) + creditcard_number[-4:]
 masked_account_number = mask_account_number(creditcard_number)
 
 print("Masked Account Number:", masked_account_number)
+"""
+
+
+
+
+
+
+
+
