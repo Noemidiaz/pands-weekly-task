@@ -9,7 +9,7 @@
 def collatz (number):
    # Adding a loop using 'while' until the number becomes 1
     while number > 1:
-        print (number, end='')
+        print (number, end=' ')
        # n is odd
         if (number % 2):
             number = number * 3 + 1  
@@ -23,6 +23,6 @@ def collatz (number):
 
 number = int (input ('Enter number:'))
 
-print ('sequence: ', end= '')
+print ('sequence: ', end= ' ')
 
 collatz(number)
