@@ -26,6 +26,7 @@ def collatz (number):
 
 number = int (input ('Enter number:'))
 
+# Print each step of the sequence until the value becomes 1
 print ('sequence: ', end= ' ')
 
 collatz(number)
