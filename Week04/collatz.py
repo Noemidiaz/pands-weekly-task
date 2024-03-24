@@ -4,24 +4,25 @@
 
 
 
-# Definitizion of variable and sequence depending if number is even or odd
+# Definitizion of function 'collatz' with a 'number' value
 
 def collatz (number):
+   # Adding a loop using 'while' until the number becomes 1
     while number > 1:
         print (number, end='')
-       # n is even
-        if number % 2 == 0:
-            number = number // 2
-        # n is odd
+       # n is odd
+        if (number % 2):
+            number = number * 3 + 1  
+        # n is even
         else:
-            number = number * 3 + 1
-    print(1)
+            number = number//2
+    print(1, end=' ')
+
 
 # Ask user to enter a number- Integer
 
-n = int (input ('Enter number:'))
+number = int (input ('Enter number:'))
 
-print (number,end= '')
+print ('sequence: ', end= '')
 
 collatz(number)
-
