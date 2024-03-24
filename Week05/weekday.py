@@ -7,6 +7,16 @@
 import datetime
 
 # weekdays definition
-weekdays = ("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
+weekday = ("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
 
-day_of_week = today.weekday ()
+# Date of today
+today = datetime.datetime.today()
+
+if today.weekday() == 4:
+
+    print ("Yes, today is a weekday")
+
+elif today.weekday() == 5 or today.weekday() == 6:
+    
+    print ("Hooray!It's finally weekend!")
+    
