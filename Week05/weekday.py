@@ -1,5 +1,5 @@
 # weekday.py
-#
+# Program that determinates wether the current day is a weekday
 # Author: Noemi Diaz
 
 
