@@ -8,7 +8,7 @@ def sqrt(number):
     # Initial estimation for the square root
     estimateData = number / 2
 
-    # Continue iterating until the estimation is sufficiently accurate
+    # Adding a loop using "While" to continue iterating until the estimation is sufficiently accurate
     while abs(estimateData * estimateData - number) > 0.0001:
      
         # Improving the estimation using Newton's method
@@ -16,7 +16,7 @@ def sqrt(number):
     
     return estimateData
 
-# Request user number
+# Input prompt: Request user number
 number = float(input("Enter a positive floating-point number: "))
 if number < 0:
     print("Please enter a positive number.")
