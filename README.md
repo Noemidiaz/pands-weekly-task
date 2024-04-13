@@ -10,7 +10,7 @@ References
 
  - W3schools on files:  https://www.w3schools.com/python/python_file_handling.asp
  
-- Sanfoundry https://www.sanfoundry.com/python-program-test-collatz-conjecture-given-number/
+- Sanfoundry: https://www.sanfoundry.com/python-program-test-collatz-conjecture-given-number/
 
 - Shecodes: https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python#:~:text=import%20datetime%20today%20%3D%20datetime.,4%3A%20print(%22Hooray!
 
