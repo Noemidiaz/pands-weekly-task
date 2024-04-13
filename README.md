@@ -1,8 +1,9 @@
 # pands-weekly-task
 
 
-BIBLIOGRAPHY
-
+References:
+ - W3schools on files:  https://www.w3schools.com/python/python_file_handling.asp
+ 
 https://www.sanfoundry.com/python-program-test-collatz-conjecture-given-number/
 
 
