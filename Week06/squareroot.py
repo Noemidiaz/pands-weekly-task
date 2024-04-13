@@ -19,4 +19,9 @@ def sqrt (number):
 
 #Request user number
    number = float (input ("Enter a positive floating-point numner: "))
-   
+   if number < 0:
+      print ("Please enter a positive number: ")
+   else:
+      result = sqrt (number)
+      print ("Square root approximation:", result)
+      
