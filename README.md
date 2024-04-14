@@ -4,6 +4,7 @@ This folder contains some python programs that displays the following tasks:
 
 - Program that displays Hello World! when It runs
 - Prompt the user, reading two money amounts and ptinting out in a human readable formatwith an euro sign  and point between the euro and cent of the amount 
+- Program  which reads a text file and displays the count of the letter 'e' it contains
 
 
 References
