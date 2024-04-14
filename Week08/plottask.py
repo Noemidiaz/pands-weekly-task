@@ -9,6 +9,18 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Set a seed value to reproduce the random data just once and alway be the same
+np.random.seed(1)
+
+# Generate 1000 randmo values from a normal distribution with mean 5 and standard desviation 2
+data = np.random.normal(5, 2, 1000)
+
+# Plot histogram
+plt.hist(data)
+plt.show()
+
+
+
 # Task2. Program that displays a plot of the function  h(x)=x3 in the range 0 to 10.
 
 import numpy as np
