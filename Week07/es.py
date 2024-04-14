@@ -30,7 +30,8 @@ def count_letter_in_file(filename, letter):
 
     # 
     if result != -1:
-
+        print (f "The letter'{letter_to_count}' appears }{}")
+    print(f"The letter '{letter_to_count}' appears {result} times in the file.")
 
 
         
