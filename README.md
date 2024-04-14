@@ -8,7 +8,7 @@ This folder contains some python programs that displays the following tasks:
 
 - Program that takes a 10-character account number and displays it with only the last 4 digits visible, while first 6 digits are replaced with Xs
 
--Program to deal with accounts numbers with any type of length and mask last 4 digit
+- Program to deal with accounts numbers with any type of length and mask last 4 digit
 
 - In this program the user enter any positive integer and the program ends when the value is 1
 
