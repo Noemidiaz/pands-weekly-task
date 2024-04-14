@@ -2,13 +2,10 @@
 # This program  reads a text file and displays the count of the letter 'e' it contains
 # Author: Noemi Diaz
 
-# The sys module lets access to System-Specific Parameters and Functions (sys.argv), enabling directly access to command-line arguments on Python from script.
 
-import sys
 
-filename = 'mobydick.txt'
 
-def count_es(filename):
+def count_letter_in_file(filename, letter):
     try :
         with open ('mobydick.txt', 'r') as file:
             # Read the contents of the file
@@ -19,4 +16,3 @@ def count_es(filename):
     except FileNotFoundError:
         print("Error:File not found.")
         
-
