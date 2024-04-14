@@ -2,7 +2,7 @@
 # Program that uses matplotlib to make a histogram of a normal distribution and a plot of the function h(x)=x3.
 # Author: Noemi Diaz
 
-
+pip install matplotlib
 
 # Task1. Program that displays a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2.
 
