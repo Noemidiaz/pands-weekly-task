@@ -4,7 +4,7 @@
 
 
 
-
+# Defining function
 def count_letter_in_file(filename, letter):
     
     try :
