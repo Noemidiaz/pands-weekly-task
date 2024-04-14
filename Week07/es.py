@@ -26,7 +26,7 @@ def count_letter_in_file(filename, letter):
 filename = input("Enter the name of the text file: ")
 
 # Asking user for the letter to count (It's possible to count uppercase or lowercase letter)
-letter_to_count = input("which letter would you like to count?: ")
+letter_to_count = input("Please, enter the letter you wish to count: ")
 
 # Function to result the ocurrences of 'Letter'
 result = count_letter_in_file(filename, letter_to_count)
