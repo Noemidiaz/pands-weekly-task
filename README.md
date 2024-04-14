@@ -20,6 +20,8 @@ This folder contains some python programs that displays the following tasks:
 
 - Program  which reads a text file and displays the count of the letter 'e' it contains
 
+- Program that displays a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2
+- Program that displays a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2
 
 
 References
