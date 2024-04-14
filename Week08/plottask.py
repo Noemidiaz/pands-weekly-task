@@ -32,7 +32,7 @@ plt.show()
 
 '''
 # TASK2.
-# a plot of the function  h(x)=x3 in the range 0 to 10
+# Program that displays a plot of the function  h(x)=x3 in the range 0 to 10
 
 import numpy as np
 import matplotlib.pyplot as plt
