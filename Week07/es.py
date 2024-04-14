@@ -14,7 +14,7 @@ def count_letter_in_file(filename, letter):
             # Read the contents of the file
             text = file.read()
 
-            # Count occurrences of 'letter' (both uppercase and lowercase)
+            # Count occurrences of 'letter' (It is possible to count uppercase or lowercase letter depending of what user asks)
             count = text.count(letter)
             return count
         
