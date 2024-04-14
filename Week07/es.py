@@ -17,7 +17,7 @@ def count_letter_in_file(filename, letter):
             # Count occurrences of 'letter' (It is possible to count uppercase or lowercase letter depending of what user asks)
             count = text.count(letter)
             return count
-        
+    # Checking is file is found or not. If not, It will appears Error message   
     except FileNotFoundError:
         print("Error:File not found.")
         return -1
@@ -25,7 +25,7 @@ def count_letter_in_file(filename, letter):
 # File path / filename of the text file. Prompt the user name of file
 filename = input("Enter the name of the text file: ")
 
-# Asking for the letter to count
+# Asking user for the letter to count
 letter_to_count = input("which letter would you like to count?: ")
 
 # Function to result the ocurrences of 'Letter'
