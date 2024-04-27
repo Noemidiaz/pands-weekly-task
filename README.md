@@ -3,13 +3,13 @@
 By Noemi Diaz
 
 ## About this folder
- 
+
 This folder contains some python programs that displays the following tasks:
 
 
 - Program that displays Hello World! when It runs
 
-- Prompt the user, reading two money amounts and ptinting out in a human readable formatwith an euro sign  and point between the euro and cent of the amount 
+- Prompt the user, reading two money amounts and ptinting out in a human readable format with an euro sign  and point between the euro and cent of the amount 
 
 - Program that takes a 10-character account number and displays it with only the last 4 digits visible, while first 6 digits are replaced with Xs
 
@@ -34,7 +34,8 @@ why this project is useful..?
 
 ## Getting started
 
-how users can get started with the project?...
+
+This weekly-task folder is organized by weeks and in each week is possible to find an specific task using python.
 
 
 ## Get Help
@@ -46,14 +47,13 @@ where users can get help with the project?
 
 You can submit a pull request regarding my code if you discover an error or if It shoul be updated.
 
+
 ## Author 
-about me....
+
+I am Noemi Diaz and I am currently studying at ATU [ATU](https://www.atu.ie/).
 
 
-
-
-
-References:
+## References:
 
  
 - Data Quest: https://www.dataquest.io/blog/read-file-python/
