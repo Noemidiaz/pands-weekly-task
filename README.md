@@ -1,6 +1,9 @@
 # pands-weekly-task
 
+By Noemi Diaz
 
+## About this folder
+ 
 This folder contains some python programs that displays the following tasks:
 
 
@@ -22,6 +25,31 @@ This folder contains some python programs that displays the following tasks:
 
 - Program that displays a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2
 - Program that displays a plot of the function  h(x)=x3 in the range 0 to 10
+
+
+## Use of this folder
+
+why this project is useful..?
+
+
+## Getting started
+
+how users can get started with the project?...
+
+
+## Get Help
+
+where users can get help with the project?
+
+
+## Contribute
+
+You can submit a pull request regarding my code if you discover an error or if It shoul be updated.
+
+## Author 
+about me....
+
+
 
 
 
