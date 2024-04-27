@@ -45,7 +45,7 @@ where users can get help with the project?
 
 ## Contribute
 
-You can submit a pull request regarding my code if you discover an error or if It shoul be updated.
+You can submit a pull request regarding my code if you discover an error or if It should be updated.
 
 
 ## Author 
