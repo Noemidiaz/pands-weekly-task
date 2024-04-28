@@ -2,7 +2,8 @@
 
 By Noemi Diaz
 
-! [Programming and scripting] (https://www.istockphoto.com/photo/technology-icons-transfer-data-through-programming-codes-gm1383963898-443569995)
+! [Programming and scripting] (https://media.istockphoto.com/id/629285904/photo/programming-code-abstract-technology-background-of-software-deve.jpg?s=1024x1024&w=is&k=20&c=p2_qAiYrULo7lI79eB37eQ77YsqRYap3FmsQvwyIfbM=)
+
 
 
 ## About this folder
