@@ -33,12 +33,9 @@ This folder contains some python programs that displays the following tasks:
 
 ## Use of this folder
 
-why this project is useful..?
-
-
-## Getting started
-
 This "weekly-task" folder is organized by weeks, with each week containing a specific task implemented using Python programming language. These tasks are highly practical, focusing on real-world scenarios.
+
+Beginners getting starting with programming willl find this folder useful. It is a good tool for acquiring fundamental Python skills.
 
 
 ## Get Help
