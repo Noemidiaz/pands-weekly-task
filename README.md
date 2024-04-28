@@ -2,6 +2,9 @@
 
 By Noemi Diaz
 
+! [Programming and scripting] (https://www.istockphoto.com/photo/technology-icons-transfer-data-through-programming-codes-gm1383963898-443569995)
+
+
 ## About this folder
 
 This folder contains some python programs that displays the following tasks:
