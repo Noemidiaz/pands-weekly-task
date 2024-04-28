@@ -31,11 +31,13 @@ This folder contains some python programs that displays the following tasks:
 - Program that displays a plot of the function  h(x)=x3 in the range 0 to 10
 
 
+
 ## Use of this folder
 
 This "weekly-task" folder is organized by weeks, with each week containing a specific task implemented using Python programming language. These tasks are highly practical, focusing on real-world scenarios.
 
-Beginners getting starting with programming willl find this folder useful. It is a good tool for acquiring fundamental Python skills.
+Beginners getting started with programming willl find this folder useful. It is a good tool for acquiring fundamental Python skills.
+
 
 
 ## Get Help
@@ -43,14 +45,17 @@ Beginners getting starting with programming willl find this folder useful. It is
 Below you will find some references from official websites with tutorials videos, examples and theoretical explanation.These resources complement and expand upon the knowledge covered in these task.
 
 
+
 ## Contribute
 
 You can submit a pull request regarding my code if you discover an error or if It should be updated.
 
 
+
 ## Author 
 
 I am Noemi Diaz and I am currently studying  Science in Computing in Data Analytics at [ATU](https://www.atu.ie/).
+
 
 
 ## References:
