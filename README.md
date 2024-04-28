@@ -1,10 +1,9 @@
-# pands-weekly-task
+# Pands weekly task
 
 By Noemi Diaz
 
-![Programming and scripting](https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![Programming and scripting](https://plus.unsplash.com/premium_photo-1661877737564-3dfd7282efcb?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
-![](https://plus.unsplash.com/premium_photo-1661877737564-3dfd7282efcb?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 
 ## About this folder
@@ -39,13 +38,12 @@ why this project is useful..?
 
 ## Getting started
 
-
-This weekly-task folder is organized by weeks and in each week is possible to find an specific task using python.
+This "weekly-task" folder is organized by weeks, with each week containing a specific task implemented using Python programming language. These tasks are highly practical, focusing on real-world scenarios.
 
 
 ## Get Help
 
-where users can get help with the project?
+Below you will find some references from official websites with tutorials videos, examples and theoretical explanation.These resources complement and expand upon the knowledge covered in these task.
 
 
 ## Contribute
@@ -55,7 +53,7 @@ You can submit a pull request regarding my code if you discover an error or if I
 
 ## Author 
 
-I am Noemi Diaz and I am currently studying at ATU [ATU](https://www.atu.ie/).
+I am Noemi Diaz and I am currently studying  Science in Computing in Data Analytics at [ATU](https://www.atu.ie/).
 
 
 ## References:
